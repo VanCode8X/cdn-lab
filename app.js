@@ -36,7 +36,7 @@ app.get('/list', (req, res) => {
   res.json(files);
 });
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`Server chạy tại http://localhost:${port}`);
 });
 
